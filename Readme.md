@@ -17,7 +17,7 @@ license.
 ## Table of contents
 
 ### Grand Rules
-* [Enable strict mode for a complete file once no compatible issue](#enable-strict-mode)
+* [Enable strict mode](#enable-strict-mode)
 
 ### Formatting
 * [2 Spaces for indentation](#2-spaces-for-indentation)
@@ -58,11 +58,12 @@ license.
 * [Getters and setters](#getters-and-setters)
 * [Do not extend built-in prototypes](#do-not-extend-built-in-prototypes)
 
-## Enable strict mode for a complete file once no compatible issue
+## Enable strict mode
 
 The strict mode was introduced from ECMAscript 5, it could be enabled for a complete file or a single function.
 
-For enabling this mode in a complete file, put below line at the beginning of the file:
+In case no compatible issue, the strict mode should be enabled by putting below line at the beginning of the file:
+
 ```js
 ’use strict’;
 ```
