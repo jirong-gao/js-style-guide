@@ -65,7 +65,7 @@ The strict mode was introduced from ECMAscript 5, it could be enabled for a comp
 In case no compatible issue, the strict mode should be enabled by putting below line at the beginning of the file:
 
 ```js
-’use strict';
+'use strict';
 ```
 
 ## Formatting
