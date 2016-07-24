@@ -8,14 +8,16 @@ There is a .jshintrc which enforces these rules as closely as possible. You can
 either use that and adjust it, or use
 [this script](https://gist.github.com/kentcdodds/11293570) to make your own.
 
-This guide was created by [Felix Geisendörfer](http://felixge.de/) and is
+This guide was forked from [Felix Geisendörfer's ](http://felixge.de/) [Node Style Guide](https://github.com/felixge/node-style-guide) and is
 licensed under the [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/)
-license. You are encouraged to fork this repository and make adjustments
-according to your preferences.
+license. 
 
 ![Creative Commons License](http://i.creativecommons.org/l/by-sa/3.0/88x31.png)
 
 ## Table of contents
+
+### Grand Rules
+* [Enable strict mode for a complete file once no compatible issue](#enable-strict-mode)
 
 ### Formatting
 * [2 Spaces for indentation](#2-spaces-for-indentation)
@@ -55,6 +57,15 @@ according to your preferences.
 * [Requires At Top](#requires-at-top)
 * [Getters and setters](#getters-and-setters)
 * [Do not extend built-in prototypes](#do-not-extend-built-in-prototypes)
+
+## Enable strict mode for a complete file once no compatible issue
+
+The strict mode was introduced from ECMAscript 5, it could be enabled for a complete file or a single function.
+
+For enabling this mode in a complete file, put below line at the beginning of the file:
+```js
+’use strict’;
+```
 
 ## Formatting
 
